@@ -6,13 +6,6 @@ import { Camera, X, ChevronLeft, ChevronRight } from "lucide-react"
 import { SectionHeading } from "@/components/reveal"
 
 type Category = "All" | "Wedding" | "Pre-Wedding" | "Outdoor" | "Baby" | "Birthday" | "Event"
-
-// ============================================================
-// ADD YOUR OWN PHOTOS HERE
-// Place your images in the /public/portfolio/ folder and
-// update the src paths below.
-// Example: src: "/portfolio/my-wedding-photo.png"
-// ============================================================
 const items: { src: string; category: Exclude<Category, "All">; title: string }[] = [
   { src: "/portfolio/wedding-1.png", category: "Wedding", title: "Eternal Vows" },
   { src: "/portfolio/prewedding-1.png", category: "Pre-Wedding", title: "Golden Fields" },
@@ -111,7 +104,7 @@ export function Portfolio() {
           Add your photos to <code className="rounded bg-card px-1.5 py-0.5 text-xs text-gold">public/portfolio/</code> folder
         </p>
         <p className="mt-1 text-xs text-muted-foreground/60">
-          Name them: wedding-1.jpg, prewedding-1.jpg, outdoor-1.jpg, baby-1.jpg, birthday-1.jpg, event-1.jpg, wedding-2.jpg, prewedding-2.jpg, event-2.jpg
+          Name them: wedding-1.png, prewedding-1.png, outdoor-1.png, baby-1.png, birthday-1.png, event-1.png, wedding-2.png, prewedding-2.png, event-2.png
         </p>
       </div>
     </section>
