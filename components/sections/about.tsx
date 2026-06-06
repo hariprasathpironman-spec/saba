@@ -17,15 +17,18 @@ export function About() {
         <Reveal>
           <div className="relative">
             <div className="absolute -inset-4 rounded-3xl bg-primary/10 blur-2xl" />
+
             <div className="relative overflow-hidden rounded-3xl border border-border">
               <Image
                 src="/about-studio.png"
-                alt="Studio"
-                width={500}
+                alt="Saba Creations Studio"
+                width={800}
                 height={500}
+                priority
                 className="h-[500px] w-full object-cover"
               />
             </div>
+
             <div className="glass-strong absolute -bottom-6 -right-6 hidden rounded-2xl px-6 py-4 sm:block">
               <p className="font-heading text-3xl text-gold">12+</p>
               <p className="text-xs uppercase tracking-widest text-muted-foreground">
@@ -41,20 +44,20 @@ export function About() {
               About Us
             </span>
           </Reveal>
+
           <Reveal delay={0.1}>
             <h2 className="mt-4 text-balance font-heading text-4xl font-semibold leading-tight text-foreground sm:text-5xl">
               A studio devoted to storytelling through light
             </h2>
           </Reveal>
+
           <Reveal delay={0.2}>
             <p className="mt-6 text-pretty leading-relaxed text-muted-foreground">
               Saba Creation is a professional photography studio built on a
-              passion for emotion, detail, and timeless craft. We don&apos;t just
-              take pictures — we preserve the fleeting moments that define your
-              story, transforming them into art you&apos;ll treasure for
-              generations.
+              passion for emotion, detail, and timeless craft.
             </p>
           </Reveal>
+
           <Reveal delay={0.3}>
             <div className="mt-8 flex flex-col gap-4">
               {[
