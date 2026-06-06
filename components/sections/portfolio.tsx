@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import Image from "next/image"
 import { AnimatePresence, motion } from "framer-motion"
 import { Camera, X, ChevronLeft, ChevronRight } from "lucide-react"
 import { SectionHeading } from "@/components/reveal"
@@ -81,7 +82,14 @@ export function Portfolio() {
               onClick={() => setLightbox(idx)}
               className="group relative block w-full overflow-hidden rounded-2xl border border-border"
             >
-              <PhotoPlaceholder title={item.title} category={item.category} />
+              <div className="relative h-64 w-full">
+  <Image
+    src={item.src}
+    alt={item.title}
+    fill
+    className="object-cover"
+  />
+</div>
               <div className="absolute inset-0 flex items-end bg-gradient-to-t from-background/90 via-background/10 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100">
                 <div className="p-5 text-left">
                   <p className="text-xs uppercase tracking-widest text-gold">
