@@ -23,7 +23,7 @@ export function About() {
                 <div className="text-center text-muted-foreground">
                   <CameraIcon className="mx-auto mb-3 h-12 w-12 opacity-30" />
                   <p className="text-sm">Add your studio photo here</p>
-                  <p className="mt-1 text-xs opacity-60">public/about-studio.jpg</p>
+                  <p className="mt-1 text-xs opacity-60">public/about-studio.png</p>
                 </div>
               </div>
             </div>
