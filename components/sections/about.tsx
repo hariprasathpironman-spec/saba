@@ -18,14 +18,13 @@ export function About() {
           <div className="relative">
             <div className="absolute -inset-4 rounded-3xl bg-primary/10 blur-2xl" />
             <div className="relative overflow-hidden rounded-3xl border border-border">
-              {/* Replace this with your own studio photo: /about-studio.jpg */}
-              <div className="flex h-[500px] w-full items-center justify-center bg-card/60">
-                <div className="text-center text-muted-foreground">
-                  <CameraIcon className="mx-auto mb-3 h-12 w-12 opacity-30" />
-                  <p className="text-sm">Add your studio photo here</p>
-                  <p className="mt-1 text-xs opacity-60">public/about-studio.png</p>
-                </div>
-              </div>
+              <Image
+                src="/about-studio.png"
+                alt="Studio"
+                width={500}
+                height={500}
+                className="h-[500px] w-full object-cover"
+              />
             </div>
             <div className="glass-strong absolute -bottom-6 -right-6 hidden rounded-2xl px-6 py-4 sm:block">
               <p className="font-heading text-3xl text-gold">12+</p>
