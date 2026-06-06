@@ -104,17 +104,3 @@ export function Portfolio() {
           ))}
         </AnimatePresence>
       </motion.div>
-
-      {/* Info banner */}
-      <div className="mt-8 rounded-2xl border border-dashed border-border bg-card/30 p-6 text-center">
-        <Camera className="mx-auto mb-3 h-8 w-8 text-muted-foreground opacity-40" />
-        <p className="text-sm text-muted-foreground">
-          Add your photos to <code className="rounded bg-card px-1.5 py-0.5 text-xs text-gold">public/portfolio/</code> folder
-        </p>
-        <p className="mt-1 text-xs text-muted-foreground/60">
-          Name them: wedding-1.png, prewedding-1.png, outdoor-1.png, baby-1.png, birthday-1.png, event-1.png, wedding-2.png, prewedding-2.png, event-2.png
-        </p>
-      </div>
-    </section>
-  )
-}
