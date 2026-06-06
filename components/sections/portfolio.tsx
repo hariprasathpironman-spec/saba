@@ -11,18 +11,18 @@ type Category = "All" | "Wedding" | "Pre-Wedding" | "Outdoor" | "Baby" | "Birthd
 // ADD YOUR OWN PHOTOS HERE
 // Place your images in the /public/portfolio/ folder and
 // update the src paths below.
-// Example: src: "/portfolio/my-wedding-photo.jpg"
+// Example: src: "/portfolio/my-wedding-photo.png"
 // ============================================================
 const items: { src: string; category: Exclude<Category, "All">; title: string }[] = [
-  { src: "/portfolio/wedding-1.jpg", category: "Wedding", title: "Eternal Vows" },
-  { src: "/portfolio/prewedding-1.jpg", category: "Pre-Wedding", title: "Golden Fields" },
-  { src: "/portfolio/outdoor-1.jpg", category: "Outdoor", title: "Misty Peaks" },
-  { src: "/portfolio/baby-1.jpg", category: "Baby", title: "First Dreams" },
-  { src: "/portfolio/birthday-1.jpg", category: "Birthday", title: "Make a Wish" },
-  { src: "/portfolio/event-1.jpg", category: "Event", title: "Grand Reception" },
-  { src: "/portfolio/wedding-2.jpg", category: "Wedding", title: "The Bouquet" },
-  { src: "/portfolio/prewedding-2.jpg", category: "Pre-Wedding", title: "Ocean Sunset" },
-  { src: "/portfolio/event-2.jpg", category: "Event", title: "Night Lights" },
+  { src: "/portfolio/wedding-1.png", category: "Wedding", title: "Eternal Vows" },
+  { src: "/portfolio/prewedding-1.png", category: "Pre-Wedding", title: "Golden Fields" },
+  { src: "/portfolio/outdoor-1.png", category: "Outdoor", title: "Misty Peaks" },
+  { src: "/portfolio/baby-1.png", category: "Baby", title: "First Dreams" },
+  { src: "/portfolio/birthday-1.png", category: "Birthday", title: "Make a Wish" },
+  { src: "/portfolio/event-1.png", category: "Event", title: "Grand Reception" },
+  { src: "/portfolio/wedding-2.png", category: "Wedding", title: "The Bouquet" },
+  { src: "/portfolio/prewedding-2.png", category: "Pre-Wedding", title: "Ocean Sunset" },
+  { src: "/portfolio/event-2.png", category: "Event", title: "Night Lights" },
 ]
 
 const categories: Category[] = ["All", "Wedding", "Pre-Wedding", "Outdoor", "Baby", "Birthday", "Event"]
