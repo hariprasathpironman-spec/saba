@@ -104,3 +104,6 @@ export function Portfolio() {
           ))}
         </AnimatePresence>
       </motion.div>
+      </section>
+  )
+}
