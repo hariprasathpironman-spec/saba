@@ -45,7 +45,7 @@ export function Contact() {
             <div className="mt-10 flex flex-col gap-5">
               {[
                 { icon: Phone, label: "+91 9750134156", href: "tel:+919750134156" },
-                { icon: Mail, label: "hello@sabacreation.com", href: "mailto:hello@sabacreation.com" },
+                { icon: Mail, label: "sabacreated@gmail.com", href: "mailto:sabacreated@gmail.com" },
                 { icon: MapPin, label: "7/71A, Athityanagar, Thanichiyam, Vadipatti (PO), Madurai - 625221", href: "#" },
               ].map((c) => (
                 <a
